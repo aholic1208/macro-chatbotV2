@@ -6,8 +6,6 @@ import asyncio
 
 client = discord.Client()
 
-#oldline is used to keep track of the last line sent by the Discord bot.
-
 @client.event
 async def on_ready():
     print('Logged in. wooloo 1, cubert 1') #Prints out a nice message to wooloo and cubert :)
